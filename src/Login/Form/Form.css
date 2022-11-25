@@ -1,0 +1,28 @@
+.Form {
+	display: flex;
+	width: 45vw;
+	height: 300px;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px auto auto auto;
+	justify-content: space-around;
+	border: 3px solid black;
+	box-shadow: 5px 5px black;
+}
+
+.Form .Button {
+	width: 200px;
+}
+
+.Error {
+	font-size: 22px;
+	margin: 0px;
+	color: red;
+}
+
+@media only screen and (max-width: 600px) {
+	.Form {
+		width: 90vw;
+		height: 300px;
+	}
+}

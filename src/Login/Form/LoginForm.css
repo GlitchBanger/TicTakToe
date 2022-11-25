@@ -1,0 +1,22 @@
+.LoginForm {
+	display: flex;
+	width: 45vw;
+	height: 500px;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px auto 30px auto;
+	justify-content: space-around;
+	border: 3px solid black;
+	box-shadow: 5px 5px black;
+}
+
+.LoginForm .Button {
+	width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+	.LoginForm {
+		width: 90vw;
+		height: 400px;
+	}
+}

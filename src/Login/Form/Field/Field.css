@@ -1,0 +1,36 @@
+.Field {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	width: 90%;
+}
+
+.Field label {
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.Field input {
+	width: 60%;
+	height: 40px;
+	border: 3px solid black;
+	font-size: 25px;
+}
+
+.Field input:focus {
+	outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.Field input {
+		width: 60%;
+		height: 30px;
+		font-size: 16px;
+	}
+	
+	.Field label {
+		font-size: 20px;
+	}
+}
